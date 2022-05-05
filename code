@@ -1,0 +1,62 @@
+== cd Public  ["احضار الملف Public"]
+//============================================================
+//============================================================
+== composer init  ["تنصيب composer"]
+== composer create-project laravel/laravel:^8.0 laravel ["تنصيب لارفل حسب الاصدار"]
+== composer create-project laravel/laravel  laravel   ["تنصيب لارفل اخر اصدار"]
+== composer update ["تحديث composer"]
+== composer install ["تحديث composer واضافة vendor"]
+== composer require laravel/ui ["طريقة تنصيب ملف خارجي"]
+== composer require laravel/ui  --dev ["طريقة تنصيب ملف خارجي"]
+== composer require facebook/graph-sdk ["طريقة تنصيب ملف خارجي"]
+== composer dump-autoload [""]
+//============================================================
+//============================================================
+== php -v ["اعطاء رقم الاصدار"]
+== dir ["اضهار الملفات"]
+== php artisan serve ["تشغيل السيرفر على المتصفح"]
+== php -S localhost:8080  ["تشغيل السيرفر على بورت معين"] 
+== php artisan serve --port=8001 ["تغير بورت السيرفر في المتصفح"]
+== php artisan make:model empleado -mcr ["انشاء المودل والكنترولر وقاعدة البيانات مايكريشن"]  
+== php artisan make:controller test1/UserController ["انشاء كنترولر جديد"]
+== php artisan make:model test1/Offer ['انشاء مودل جديد']
+== php artisan migrate update
+== php artisan migrate ["انشاء الجداول في قاعدة البيانت"]
+== php artisan migrate:refresh 
+== php artisan route:list ["اضهار لست للراوتر"]
+== php artisan ui bootstrap [""]
+== php artisan ui vue --auth [""]
+== php artisan ui bootstrap --auth [""]
+== php artisan make:command expiration [""] 
+== php artisan make:mail NotifyEmail [""]
+== php artisan schedule:run  ["عبور الوقت المحدد مثلا يوم او شهر او"]
+== php artisan make:request test1/Offer ["اضافة ركوست لمعالجة الطلب"]
+//============================================================
+//============================================================
+== git --version ["اعطاء رقم الاصدار"]
+== git init ["تنصيب ملف كيت"]
+== git status ["معرفت حالت الملفات التي اجري عليها التغيرات في الجاز"]
+== git add . ["تحديد كل الملفات واضافتها في الكيت"] 
+== git add  * ["تحديد كل الملفات واضافتها في الكيت"]
+== git add  app/Http/Controllers/EmpleadoController.php 
+   ["اضافة ملف معين من الجهاز الى الكيت هب"]
+== git commit -m "add first project" 
+   ["كتابة تعلق عند كل رفع ملفات من الجهاز الى الكيت هب"]
+== git remote add origin https://github.com/mohammed99mm/laravel.git 
+   ["رفع المشروع من الجهاز لاول مرة الى الكيت هب"]
+== git push origin master ["ارسال التغيرات من الجهاز الى الكيت هب"]
+== git push -u origin master  ["ارسال التغيرات من الجهاز الى الكيت هب"]
+
+== git clone https://github.com/mohammed99mm/laravel.git 
+   ["تنزيل ملفات لمشروع معين من الكيت هب الى الجهاز"] 
+== git pull origin master [" سحب التغيرات من الكيت هب الى الجهاز"]
+//============================================================
+//============================================================
+== npm install ["خاص تنصيب node js"]
+== npm run dev ["خاص تنصيب node js"]
+//===========================================================
+//===========================================================
+["اضافة اكثر من لغة"]
+++ https://github.com/mcamara/laravel-localization ["رابط الموقع"]
+++ composer require mcamara/laravel-localization
+++ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
