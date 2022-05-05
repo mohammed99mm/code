@@ -47,7 +47,7 @@
 == git commit -m "add first project" 
    ["كتابة تعلق عند كل رفع ملفات من الجهاز الى الكيت هب"]
 == git branch -M main 
-   ["masterتغير اسم البرانج ..الدفلت هو "]
+   ["masterتغير اسم البرانج لاول مكره..الدفلت هو "]
 == git remote add origin https://github.com/mohammed99mm/laravel.git 
    ["رفع المشروع من الجهاز لاول مرة الى الكيت هب"]
 == git push origin master ["ارسال التغيرات من الجهاز الى الكيت هب"]
