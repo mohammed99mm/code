@@ -67,3 +67,8 @@
 ++ https://github.com/mcamara/laravel-localization ["رابط الموقع"]
 ++ composer require mcamara/laravel-localization
 ++ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
+
+//============================================================
+//============ تنصيب لارفل   =================================
+//============================================================
+== composer create-project laravel/laravel example-app ["تنصيب لارفل"]
