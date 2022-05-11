@@ -78,6 +78,8 @@
 //===============================================================//
 == git clone https://github.com/mohammed99mm/laravel.git 
    ["تنزيل ملفات لمشروع معين من الكيت هب الى الجهاز"] 
-== composer install ["تحديث composer واضافة vendor"] or == composer update ["تحديث composer"]
-== .env.example ===>>.env ["  .env يجب ان تكون هناك نسخة من ملف "]
-
+== composer install ["تنصيب composer واضافة vendor"] 
+or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث composer"]
+== .env.example ===>>.env [".env وتعديل عليها الى .env.example نقوم بنشاء باخذ نسخة من  .env يجب ان تكون هناك نسخة من ملف "]
+== php artisan key:generate [".env داخل ملف  key توليد "]
+== php artisan serve ["تشغيل السيرفر على المتصفح"]
