@@ -80,4 +80,5 @@
    ["تنزيل ملفات لمشروع معين من الكيت هب الى الجهاز"] 
 == composer init  ["تنصيب composer"]
 == composer install ["تحديث composer واضافة vendor"]
+== .env.example ===>>.env ["  .env يجب ان تكون هناك نسخة من ملف "]
 
