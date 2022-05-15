@@ -110,7 +110,11 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====================================================================//
 //========= Multi_Auth انشاء   =======//
 //====================================================================//
-== 1--
+== 1-- config --> auth.php
+== 2-- app --> Http --> Middleware --> RedirectIfAuthenticated.php
+== 3-- app --> Providers--> RouteServiceProvider.php
+== 4-- app --> Http --> Middleware --> Authenticate.php
+== 5-- routes --> web.php
 
 
 
