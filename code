@@ -71,9 +71,11 @@
 ++ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
 
 //====================================================================//
-//========================= تنصيب لارفل   ============================//
+//=========================  تنصيب لارفل اول مرة  ============================//
 //====================================================================//
 == composer create-project laravel/laravel example-app ["تنصيب لارفل"]
+== php artisan key:generate [" .env داخل ملف  key توليد "]
+
 
 //===============================================================//
 //=====  طريقة سحب اي ملف من الكيت هب اول مره مثل لارفل   ===== //
@@ -108,7 +110,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == 2-- routes--> انشاء ملف باسم جديد
 
 //====================================================================//
-//========= Multi_Auth انشاء   =======//
+//============== Multi_Auth  ا نشاء  تسجيل دخول متعدد ==============//
 //====================================================================//
 == 1-- config --> auth.php
 == 2-- app --> Http --> Middleware --> RedirectIfAuthenticated.php
@@ -117,4 +119,11 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == 5-- routes --> web.php
 
 
-
+//====================================================================//
+//======  Authentication انشاء نظام تسجيل ليس متعدد بل مفرد  ======//
+//====================================================================//
+== composer require laravel/ui:^2.4
+== npm install  
+== npm run dev  
+== php artisan ui vue --auth
+== https://laravel.com/docs/7.x/authentication ['رابط']
