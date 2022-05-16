@@ -75,6 +75,7 @@
 //=========================  تنصيب لارفل اول مرة  ============================//
 //====================================================================//
 == composer create-project laravel/laravel example-app ["تنصيب لارفل"]
+or == laravel new example-app ["تنصيب لارفل"]
 == php artisan key:generate [" .env داخل ملف  key توليد "]
 
 
