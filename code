@@ -56,6 +56,7 @@ Add == git checkout DownloadTheme ["تغير الى برانج معين "]
 Add == git push origin Theme ["ارسال التغيرات من الجهاز الى الكيت هب"]
 == git branch -d update_dashboard ["معين من الجهاز مع مراعاة التغيرات branch حذف  "]
 == git branch -D update_dashboard ["معين من الجهاز مع دون مراعاة التغيرات branch حذف  "]
+== git push origin --delete update_dashboard ["معين من الكيت هب  branch حذف"]
 == git remote add origin https://github.com/mohammed99mm/laravel.git 
    ["رفع المشروع من الجهاز لاول مرة الى الكيت هب"]
 == git push origin master ["ارسال التغيرات من الجهاز الى الكيت هب"]
