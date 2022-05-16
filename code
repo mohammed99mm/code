@@ -92,9 +92,9 @@ or == laravel new example-app ["تنصيب لارفل"]
 //===============================================================//
 == git clone https://github.com/mohammed99mm/laravel.git 
    ["تنزيل ملفات لمشروع معين من الكيت هب الى الجهاز"] 
-== git branch ["جلب البرانج الحالي"]
-== git branch -a ["جلب جميع اسماء البرانج من الجهاز مع الكيت هب "]
+== git branch [ جلب اسماء البرانج  للجهاز"]
 == git branch -r ["جلب جميع اسماء البرانج من الكيت هب  "]
+== git branch -a ["جلب جميع اسماء البرانج من الجهاز مع الكيت هب "]
 == git checkout DownloadTheme ["تغير الى برانج معين "]
 == git branch -d DownloadTheme [معين branch حذف "]
 == composer install ["تنصيب composer واضافة vendor"] ===> {يستخدم اذا كان جهازك يتوافق مع اصدار لارفل المنزلة من الكيت هب}
