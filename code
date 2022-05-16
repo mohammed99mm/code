@@ -52,6 +52,9 @@
 Add == git checkout DownloadTheme ["تغير الى برانج معين "]
 == git checkout -b DownloadTheme ["انشاء مع تغير الى برانج معين"]
 == git branch -m Theme  [" الحالي الى اسم جديد branch تغير اسم"]
+== git merge update_dashboard [" معين مع  برانج الحالي branch دمج التغيرات "]
+Add == git push origin Theme ["ارسال التغيرات من الجهاز الى الكيت هب"]
+== git branch -d update_dashboard [" معين من   الكيت هب branch حذف  "]
 == git remote add origin https://github.com/mohammed99mm/laravel.git 
    ["رفع المشروع من الجهاز لاول مرة الى الكيت هب"]
 == git push origin master ["ارسال التغيرات من الجهاز الى الكيت هب"]
