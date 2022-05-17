@@ -149,8 +149,8 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == auth('الاسم')->check() // if تستخدم مع ال 
 
 //====================================================================//
-//========== laravel spatie roles and permissions الصلاحيات ==========//
+//==== laravel spatie roles and permissions  صلاحيات المستخدميين ====//
 //====================================================================//
-== https://spatie.be/docs/laravel-permission/v5/installation-laravel  {رابط}
-==
+== https://spatie.be/docs/laravel-permission/v5/installation-laravel  {رابط الموقع}
+== https://www.itsolutionstuff.com/post/laravel-9-user-roles-and-permissions-tutorialexample.html {رابط الشرح}
 
