@@ -154,3 +154,11 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == https://spatie.be/docs/laravel-permission/v5/installation-laravel  {رابط الموقع}
 == https://www.itsolutionstuff.com/post/laravel-9-user-roles-and-permissions-tutorialexample.html {رابط الشرح}
 
+
+//====================================================================//
+//==========================  قاعدة البيانات  =======================//
+//                                migrate                             //
+//====================================================================//
+== php artisan migrate  {انشاء جداول قاعدة البيانات لاول مرة}
+== php artisan migrate:fresh {تحديث جداول قاعدة البيانات}
+
