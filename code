@@ -134,7 +134,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====================================================================//
 //======  Authentication انشاء نظام تسجيل ليس متعدد بل مفرد  ======//
 //====================================================================//
-== composer require laravel/ui:^2.4
+== composer require laravel/ui
 == npm install  
 == npm run dev  
 == php artisan ui vue --auth
