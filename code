@@ -70,6 +70,7 @@ Add == git push origin Theme ["ارسال التغيرات من الجهاز ا�
 ++ https://github.com/mcamara/laravel-localization ["رابط الموقع"]
 ++ composer require mcamara/laravel-localization
 ++ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
+== app()->getLocale() ---> ar or en
 
 //====================================================================//
 //=========================  تنصيب لارفل اول مرة  ============================//
@@ -175,9 +176,17 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //=============================  الرابط   =======================//
 //                                Url                             //
 //====================================================================//
-== 1-- {{ url(app()->getLocale().'/dashboard') }}
+== 1-- {{ url(app()->getLocale().'/dashboard') }}  // app()->getLocale() ---> ar or en
 == 2-- {{route('Grades.index')}}"
 ---------------------------------------------
 == 3-- {{ URL::asset('assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}
 == 4-- {{asset('assets/images/logo-sm.png')}}
+
+
+//====================================================================//
+//=============================  جلب الصفحات   =======================//
+//                                @yield                             //
+//====================================================================//
+== @extends('layouts.admin'); 
+== @section('page-header') كود  @endsection   -->> @yield('page-header')
 
