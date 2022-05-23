@@ -190,3 +190,13 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == @extends('layouts.admin'); 
 == @section('page-header') كود  @endsection   -->> @yield('page-header')
 
+
+
+//====================================================================//
+//=============================  Validation   =======================//
+//                         Form Request Validation                    //
+//====================================================================//
+== php artisan make:request StorePostRequest
+== 
+
+
