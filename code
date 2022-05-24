@@ -207,7 +207,15 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====================================================================//
 == https://github.com/spatie/laravel-translatable
 == composer require spatie/laravel-translatable
-==
+
+
+//====================================================================//
+//===                موقع يستعمل مكتبة للاشعارات                 ===//
+//                          laravel - toastr                         //
+//                            notifications
+//====================================================================//
+== https://github.com/yoeunes/toastr
+== composer require spatie/laravel-translatable
 
 
 
