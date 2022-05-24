@@ -217,6 +217,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == https://github.com/yoeunes/toastr
 == composer require yoeunes/toastr
 == 'providers' => [ Yoeunes\Toastr\ToastrServiceProvider::class ]
+== php artisan vendor:publish --provider='Yoeunes\Toastr\ToastrServiceProvider' --tag="toastr-config"
 == php artisan vendor:publish
 == @toastr_css
 == @toastr_js  || @toastr_render
