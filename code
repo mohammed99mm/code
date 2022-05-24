@@ -215,7 +215,11 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //                            notifications
 //====================================================================//
 == https://github.com/yoeunes/toastr
-== composer require spatie/laravel-translatable
+== composer require yoeunes/toastr
+== 'providers' => [ Yoeunes\Toastr\ToastrServiceProvider::class ]
+== php artisan vendor:publish
+== @toastr_css
+== @toastr_js  || @toastr_render
 
 
 
