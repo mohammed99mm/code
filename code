@@ -232,4 +232,13 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 
 
 
+//====================================================================//
+//===                كيفية مسح ذاكرة التخزين المؤقت             ===//
+//                    How to Clear Cache in Laravel                     
+//====================================================================//
+== https://tecadmin.net/clear-cache-laravel-5  {الموقع}
+== php artisan cache:clear
+== php artisan route:clear
+== php artisan config:clear
+== php artisan view:clear
 
