@@ -197,8 +197,8 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====                          Validation                        ====//
 //                         Form Request Validation                    //
 //====================================================================//
-== https://laravel.com/docs/9.x/validation
-== php artisan make:request StorePostRequest
+== https://laravel.com/docs/9.x/validation {الموقع}
+== php artisan make:request StorePostRequest  {عمل ركوست قلديشن باسم معين}
 == public function authorize() //  return true;  // يجب تفعيل الى ترو بدل فولص
 
 //====================================================================//
