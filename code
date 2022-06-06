@@ -178,7 +178,6 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //                                seeder                             
 //====================================================================//
 == php artisan db:seed --class=PermissionTableSeede  {انشاء بيانات داخل جدول}
-== php artisan db:seed --class=CreateAdminUserSeeder {انشاء بيانات داخل جدول الادمن واليوزر}
 
 
 //====================================================================//
