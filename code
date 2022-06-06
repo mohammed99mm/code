@@ -255,4 +255,5 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //                                 praint                     
 //====================================================================//
 == dd($request->delete_all_id);  {طباعة متغير}
+== ->dd(); {طريقة 2}
 
