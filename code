@@ -22,9 +22,10 @@
 == php artisan serve ["تشغيل السيرفر على المتصفح"]
 == php -S localhost:8080  ["تشغيل السيرفر على بورت معين"] 
 == php artisan serve --port=8001 ["تغير بورت السيرفر في المتصفح"]
-== php artisan make:model empleado -mcr ["انشاء المودل والكنترولر وقاعدة البيانات مايكريشن"]  
-== php artisan make:controller test1/UserController ["انشاء كنترولر جديد"]
 == php artisan make:model test1/Offer ['انشاء مودل جديد']
+== php artisan make:model empleado -mcr ["انشاء المودل والكنترولر وقاعدة البيانات مايكريشن"]
+== php artisan make:model empleado -m ["انشاء المودل وقاعدة البيانات مايكريشن"]
+== php artisan make:controller test1/UserController ["انشاء كنترولر جديد"]
 == php artisan migrate update
 == php artisan migrate ["انشاء الجداول في قاعدة البيانت"]
 == php artisan migrate:refresh 
@@ -175,8 +176,10 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 
 //====================================================================//
 //==========================  قاعدة البيانات  =======================//
-//                                seeder                             
+//                           seeder || seeding                             
 //====================================================================//
+== https://laravel.com/docs/9.x/seeding              {رابط الموقع}
+== php artisan make:seeder UserSeeder                {انشاء سيدر جديد باسم معين}
 == php artisan db:seed --class=PermissionTableSeede  {انشاء بيانات داخل جدول}
 
 
