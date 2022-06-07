@@ -182,7 +182,8 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == == php artisan make:model empleado -m             {"انشاء المودل وقاعدة البيانات مايكريشن"}
 == php artisan make:seeder UserSeeder                {انشاء سيدر جديد باسم معين}
 == php artisan migrate                               {انشاء جداول قاعدة البيانات الجديدة}
-== php artisan db:seed --class=PermissionTableSeede  {انشاء بيانات داخل جدول}
+== php artisan db:seed --class=PermissionTableSeede  {انشاء بيانات سيدر معين داخل جدول}
+== php artisan db:seed                               {انشاء بيانات جميع السيدر داخل جدوال}
 
 
 //====================================================================//
