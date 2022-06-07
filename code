@@ -263,3 +263,11 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == dd($request->delete_all_id);  {طباعة متغير}
 == ->dd(); {طريقة 2}
 
+//====================================================================//
+//==========================       Livewire  =======================//
+//                                 Livewire                             
+//====================================================================//
+== https://laravel-livewire.com/docs/2.x/quickstart              {رابط الموقع}
+== composer require livewire/livewire                            {تنصيب}
+
+
