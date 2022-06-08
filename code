@@ -267,7 +267,9 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //==========================       Livewire  =======================//
 //                                 Livewire                             
 //====================================================================//
-== https://laravel-livewire.com/docs/2.x/quickstart              {رابط الموقع}
-== composer require livewire/livewire                            {تنصيب}
+== https://laravel-livewire.com/docs/2.x/quickstart       {رابط الموقع}
+== composer require livewire/livewire                     {تنصيب}
+== @livewireStyles || @livewireScripts                    {تضمين قي الهيدر والبدي}
+== php artisan make:livewire counter                      {انشاء لايفوير باسم جديد}
 
 
