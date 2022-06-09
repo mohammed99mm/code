@@ -31,6 +31,7 @@
 == php artisan migrate ["انشاء الجداول في قاعدة البيانت"]
 == php artisan migrate:refresh 
 == php artisan route:list ["اضهار لست للراوتر"]
+== php artisan list ["اضهار لست لارفل"]
 == php artisan make:command expiration [""] 
 == php artisan make:mail NotifyEmail [""]
 == php artisan schedule:run  ["عبور الوقت المحدد مثلا يوم او شهر او"]
