@@ -25,7 +25,8 @@
 == php artisan make:model test1/Offer ['انشاء مودل جديد']
 == php artisan make:model empleado -mcr ["انشاء المودل والكنترولر وقاعدة البيانات مايكريشن"]
 == php artisan make:model empleado -m ["انشاء المودل وقاعدة البيانات مايكريشن"]
-== php artisan make:controller test1/UserController ["انشاء كنترولر جديد"]
+== php artisan make:controller test1/UserController             ["انشاء كنترولر جديد"]
+== php artisan make:controller test1/UserController --resource  [" انشاء كنترولر جديد لاكن مع الفكشن والراوت"]
 == php artisan migrate update
 == php artisan migrate ["انشاء الجداول في قاعدة البيانت"]
 == php artisan migrate:refresh 
