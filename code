@@ -164,6 +164,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //==========================  قاعدة البيانات  =======================//
 //                                migrate                             
 //====================================================================//
+== php artisan make:migration create_teacher_section_table --create=teacher_section  {انشاء مكريشن}
 == php artisan migrate  {انشاء جداول قاعدة البيانات لاول مرة}
 == php artisan migrate:fresh {حذف البيانات داخل الجداول قاعدة البيانات}
 
