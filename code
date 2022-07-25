@@ -276,3 +276,12 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == php artisan make:livewire counter                      {انشاء لايفوير باسم جديد}
 
 
+//====================================================================//
+//=============       رفع بيانات اكثر من خل جدول اكسل  ==========//
+//                            laravel excel                             
+//====================================================================//
+== https://laravel-excel.com/  {الموقع}
+== https://stackoverflow.com/questions/72641073/installing-maatwebsite-excel-with-laravel-9-but-getting-the-phpoffice-phpspreads
+{لتعديل الاصدار}
+
+
