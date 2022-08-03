@@ -74,6 +74,7 @@ Add == git push origin Theme ["ارسال التغيرات من الجهاز ا�
 ++ https://github.com/mcamara/laravel-localization ["رابط الموقع"]
 ++ composer require mcamara/laravel-localization
 ++ php artisan vendor:publish --provider="Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider"
+++ app- > Http -> Kernel.php 
 == app()->getLocale() ---> ar or en
 
 //====================================================================//
