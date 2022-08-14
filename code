@@ -104,6 +104,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 == .env.example ===>>.env [".env وتعديل عليها الى .env.example نقوم بنشاء باخذ نسخة من  .env يجب ان تكون هناك نسخة من ملف "]
 == php artisan key:generate [" .env داخل ملف  key توليد "]
 == php artisan serve ["تشغيل السيرفر على المتصفح"]
+== {{ .env انشاء اسم جديد لقاعدة بيانات في ال }}
 == php artisan migrate ["انشاء الجداول في قاعدة البيانت"]
 == php artisan db:seed --class=PermissionTableSeede  {انشاء بيانات سيدر معين داخل جدول}
 == php artisan db:seed                               {انشاء بيانات جميع السيدر داخل جدوال}
@@ -141,9 +142,18 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====================================================================//
 == composer require laravel/ui
 == npm install  
+== npm run dev 
+== php artisan ui bootstrap --auth
+or
+== composer require laravel/ui
+== npm install  
 == npm run dev  
 == php artisan ui vue --auth
+
 == https://laravel.com/docs/7.x/authentication ['رابط']
+or
+== composer require laravel/breeze
+== php artisan breeze:install
 
 
 //====================================================================//
