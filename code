@@ -130,6 +130,7 @@ or == composer update ["++ https://laravel.com/docs/9.x/upgrade ++ تحديث co
 //====================================================================//
 //============== Multi_Auth  ا نشاء  تسجيل دخول متعدد ==============//
 //====================================================================//
+== https://www.youtube.com/watch?v=PqAaBo_I_a4 ["طريقة الشرح للخطوات"]
 == 1-- config --> auth.php
 == 2-- app --> Http --> Middleware --> RedirectIfAuthenticated.php
 == 3-- app --> Providers--> RouteServiceProvider.php
@@ -154,6 +155,13 @@ or
 or
 == composer require laravel/breeze
 == php artisan breeze:install
+
+
+//=====================================================================//
+//===  انشاء مدلوير باسم معين عدم الرجوع الى الصفحة السابقة   ====//
+//                      Prevent Back History                          //
+//===================================================================//
+== https://www.itsolutionstuff.com/post/laravel-5-how-to-prevent-browser-back-button-after-user-logoutexample.html  ["شرح الخطوات"]
 
 
 //====================================================================//
